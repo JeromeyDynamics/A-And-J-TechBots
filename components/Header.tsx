@@ -1,3 +1,4 @@
+//using "rafce", a basic component with a div can be generated
 import React from "react";
 import HeaderMenu from "./HeaderMenu";
 import Logo from "./Logo";
