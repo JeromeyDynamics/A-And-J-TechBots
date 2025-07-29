@@ -14,6 +14,8 @@ const HeaderMenu = () => {
           className="hover:text-dark hover-effect relative group"
         >
           {item.title}
+          <span className = "absolute -bottom-0.5 left-1/2 w-0 h-0.5 bg-dark hover-effect group-hover:w-1/2 group-hover:left-0" />
+          <span className = "absolute -bottom-0.5 right-1/2 w-0 h-0.5 bg-dark hover-effect group-hover:w-1/2 group-hover:right-0" />
         </Link>
       ))}
     </div>
