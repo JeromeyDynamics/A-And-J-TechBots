@@ -4,6 +4,19 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
+
+  /* Custom Themes */
+
+  --color-dark: var(--dark-color);
+  --color-light: var(--light-color);
+  --color-light-orange: var(--light-orange);
+  --color-light-blue: var(--light-blue);
+  --color-dark-blue: var(--dark-blue);
+  --color-dark-text: var(--dark-text);
+  --color-light-bg: var(--light-bg);
+
+  /* End of Custom Themes */
+
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
@@ -42,6 +55,18 @@
 }
 
 :root {
+  /* Custom Themes */
+
+  --dark-color: #151515;
+  --light-color: #52525b;
+  --light-orange: #fca99b;
+  --light-blue: #7688DB;
+  --dark-blue: #6c7fd8;
+  --dark-text: #686e7d;
+  --light-bg: #F8F8FB;
+
+  /* End of Custom Themes */
+
   --radius: 0.625rem;
   --background: oklch(1 0 0);
   --foreground: oklch(0.145 0 0);
